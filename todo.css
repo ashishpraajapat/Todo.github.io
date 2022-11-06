@@ -7,16 +7,29 @@
 }
 
 body{
-    height: 100vh;
+    height: 75vh;
     width: 100%;
-    background: linear-gradient(to bottom, #e9dede 0%, #cd2929 100%);
+    background: linear-gradient(to top, #c67590e6 17%, #6e538ef0 66%);
 
 }
+header{
+    color: #000000ba;
+    font-size: 36px;
+    width: fit-content;
+    margin-bottom: 0px;
+    margin-top: 200px;
+    margin-left: 561px;
+   border-radius: 5px;
+    padding-right: 107px;
+    padding-left: 110px;
+
+    background-color: #ffffff40;
+}
 .wrapper {
-margin: 120px auto;
+margin: 5px auto;
 max-width: 400px;
 width: 100%;
-background: #ffffff;
+background:#ffffff26;
 border-radius: 5px;
 padding: 25px;
 }
@@ -33,7 +46,8 @@ padding: 25px;
 .inputField input{
     width: 85%;
     height: 100%;
-    border: 1px solid #ccc;
+    background-color:#f2f2f259;
+    border: 1px solid #0806069c;
     font-size: 17px;
     border-radius: 3px;
     padding-left: 15px;
@@ -44,8 +58,8 @@ padding: 25px;
     height: 100%;
     border: none;
     outline: none;
-    background: #8E49E8;
-    color: #ffffff;
+    background: #0806069c;
+    color:#ffffffeb;
     font-size: 22px;
     cursor: pointer;
     border-radius: 3px;
@@ -68,7 +82,7 @@ overflow-y: auto;
     height: 45px;
     line-height: 45px;
     position: relative;
-    background: #f2f2f2;
+    background:#f2f2f259;
     border-radius: 3px;
     margin-bottom: 8px;
     padding: 0 15px;
@@ -83,7 +97,7 @@ overflow-y: auto;
     text-align: center;
     padding-left: 3px;
     padding-right: 3px;
-    background: #7131a5;
+    background: #0806069c;
     border-radius: 3px;
     cursor: pointer;
      transition: all 0.3s ease;
@@ -102,8 +116,8 @@ right: 0px;
 .footer button{
     border: none;
     outline: none;
-    background: #8E49E8;
-    color: #ffffff;
+    background: #0806069c;
+    color:#ffffffeb;
     font-size: 16px;
     cursor: pointer;
     border-radius: 3px;
@@ -113,5 +127,7 @@ right: 0px;
 }
 .footer button.active{
     opacity: 1;
+    
     pointer-events: auto;
 }
+
