@@ -7,7 +7,7 @@
 }
 
 body{
-    height: 75vh;
+    height: 85vh;
     width: 100%;
     background: linear-gradient(to top, #c67590e6 17%, #6e538ef0 66%);
 
@@ -17,7 +17,7 @@ header{
     font-size: 36px;
     width: fit-content;
     margin-bottom: 0px;
-    margin-top: 200px;
+    margin-top: 111px;
     margin-left: 561px;
    border-radius: 5px;
     padding-right: 107px;
